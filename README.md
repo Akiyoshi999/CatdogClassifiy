@@ -7,7 +7,7 @@ web上でアップロードされた画像に対して、猫か犬かを推定�
 - heroku : 7.47.0 win32-x64 node-v12.16.2
 
 ## 動作画面
-![識別画面](/images/2020/11/VID_20201125_214227.gif)
+![識別画面](https://raw.githubusercontent.com/wiki/Akiyoshi999/CatdogClassifiy/images/VID_20201125_214227.gif)
 
 ## 工夫した点
 - 推定モデルにVGG16の転移学習したものを利用して学習精度を高めました
