@@ -1,0 +1,8 @@
+{% extends 'catdog/base.html' %}
+
+{% block content %}
+    {% load static %}
+    <a><img src="{% static "photo/business_woman1_4_laugh.png" %}"></a>
+<p>正解してよかったです！また遊んでね！</p>
+    <a href="{% url 'catdog:index' %}" class="btn btn-primary">画像選択メニューに戻る</a>
+{% endblock %}

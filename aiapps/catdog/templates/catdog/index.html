@@ -1,0 +1,21 @@
+{% extends 'catdog/base.html' %}
+{% block titile %}猫・犬の推定アプリメニュー{% endblock %}
+
+{% block content %}
+<div>
+    <h4 class="mt-4 mb-5 border-bottom">猫・犬の推定アプリ</h4>
+    <p>画像ファイルを選択して推定ボタンを押してください</p>
+    <form action="{% url 'catdog:predict' %}" method="post" class="form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+            <div class="custom-file">
+                {{ form.image }}
+                <label class="custom-file-label" form="customFile">
+                    推定したいファイルを選択してください
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">推定する</button>
+    </form>
+</div>
+{% endblock %}

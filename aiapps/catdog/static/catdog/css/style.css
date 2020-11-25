@@ -1,0 +1,9 @@
+body{
+    background-image: url('images.jpg');
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,4 @@
+taticfiles
+local_settings.py
+db.sqlite3
+catdog/ml_models/vgg16_transfer.h5
