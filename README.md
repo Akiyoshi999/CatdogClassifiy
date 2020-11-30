@@ -17,3 +17,11 @@ web上でアップロードされた画像に対して、猫か犬かを推定�
 ## 課題点・次回挑戦したいことなど
 - 識別するまでの時間がかかってしまうので、次回は処理速度が速い処理を実装したい。
 - 画像生成するGANや音声認識などを実装してみたい。
+
+## 参照
+- [djangoの公式ドキュメント](https://docs.djangoproject.com/ja/3.1/)
+- [DjangoアプリをHerokuにデプロイする方法](https://qiita.com/frosty/items/66f5dff8fc723387108c)
+- [【Keras】転移学習とファインチューニング【犬猫判別4】](https://ymgsapo.com/2019/03/14/extend-model-and-fine-tuning/)
+- [【徹底的に解説！】Djangoの基礎をマスターして、3つのアプリを作ろう！](https://www.udemy.com/course/django-3app/)
+- [Google ColaboratoryをGoogle DriveにマウントしてPythonを実行する。](https://qiita.com/asakuraTsukazaki/items/e7eb1f0c43be1e0231c6)
+- [Django DEBUG=Falseにすると500エラーが起きた](https://ktmemo.herokuapp.com/post/2/)
